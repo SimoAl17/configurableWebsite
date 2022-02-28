@@ -1,0 +1,26 @@
+body{
+    background-color: #373a6c;
+}
+
+header{
+    height: 200px;
+}
+
+h1{
+    color: brown;
+}
+
+h2{
+    color: brown;
+}
+
+
+p{
+    color: azure;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+}
