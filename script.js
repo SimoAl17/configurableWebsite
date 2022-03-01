@@ -43,16 +43,62 @@ fetch('./assets/settings/pages.json')
 
 
 function loadContent(data) {
-    const content = document.getElementById("page-content");
-    const page1 = data[0];
-    for (const conte of page1.content) {
-        const tag = document.createElement(conte.tag);
-        if (conte.tag === "img") {
-            tag.setAttribute("src", conte.url);
-            tag.setAttribute("width", "300px");
-        } else {
-            tag.innerText = conte.text;
-        }
-        content.appendChild(tag);
+    const allPages = data;
+    setNavMenu(allPages);
+    
+    const paramsString = window.location.search;
+    const params = new URLSearchParams(paramsString);
+    let id = params.get('id');
+    if(!id){
+        id = "p1"
     }
+    const page = allPages.filter(p => p.id === id)[0];
+
+    const content = document.getElementById("page-content");
+    for (const conte of page.content) {
+        const elemento = createPage(conte);
+        content.appendChild(elemento);
+    }
+}
+
+function setNavMenu(allPages) {
+    const navMenu = document.getElementById("nav-menu")
+    for (const page of allPages) {
+        const a = document.createElement('a');
+        const node = document.createTextNode(page.name);
+        a.appendChild(node);
+        //const baseUrl = window.location.toString().split("=")[0];
+        //const url = baseUrl + "=" + page.id;
+        const url = "/?id=" + page.id;
+        a.href = url;
+        navMenu.appendChild(a);
+    }
+}
+
+function createPage(contPage) {
+    const tagElement = document.createElement(contPage.tag);
+    if (contPage.tag === "img") {
+        tagElement.setAttribute("src", contPage.url);
+        tagElement.setAttribute("width", "300px");
+    } else if (contPage.tag === "div") {
+    } else {
+        tagElement.innerText = contPage.text;
+    }
+
+    if (contPage.children) {
+        for (const child of [contPage.children]) {
+            for (const element of child) {
+                const figlio = createPage(element);
+                tagElement.appendChild(figlio);
+            }
+        }
+    }
+    if (contPage.class) {
+        tagElement.className = contPage.class;
+    }
+    if (contPage.style) {
+        tagElement.style = contPage.style;
+    }
+    return tagElement;
+    
 }

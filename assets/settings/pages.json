@@ -1,18 +1,106 @@
 [
     {
         "id": "p1",
+        "name": "pagina 1",
         "content": [
             {
                 "tag": "h2",
-                "text": "La mia passione culinaria"
+                "text": "Pasticcera celiaca"
             },
             {
                 "tag": "p",
-                "text": "Un mestiere particolare per Giorgia, che è celiaca e che per questo non può assaggiare gran parte dei suoi prodotti, ma la passione che la muove è tanta. A farla distinguere c’è la sua grande inventiva. Anche nel marketing, ad esempio, destate in sella alla sua bicicletta consegna cornetti caldi ad atriani e turisti. Da sempre anticipatrice dei tempi. Giorgia è stata tra le prime in Italia a lavorare la pasta di zucchero quando ancora non era così diffusa. Una creatività travolgente che l’ha portata alla creazione, tra le altre cose, delle Spezialità. Si tratta di una personalissima linea di biscotti alle spezie in fase di distribuzione a livello nazionale. L’attenzione alla naturalezza delle materie prime e delle successive lavorazioni è il suo valore aggiunto. Circa 7 anni fa ha prodotto i primi Cantucci alla Liquirizia, spezia tipica di Atri. Cantuccio senza grassi, senza agenti lievitanti e conservanti. Un prodotto che è stato a Expo di Milano, a New York in degustazione al Westchester Italian Cultural Center e anche in Giappone. Poi sono arrivate le Pepite di Zenzero e Pinoli, quelle di choco-cannella, entrambe vegane e il cantuccio con le mandorle, uvetta e gocce di cioccolato, aromatizzato al rum. Della linea fanno parte il Raviolo alla Liquirizia con ripieno di crema di limone e cardamomo e lo Gnocco alla Liquirizia e allo Zafferano. Giorgia ha creato anche la Liquicake, una cheescake con base cantuccio alla liquirizia inserita nel menu della pizzeria gourmet Percorsi di Gusto dell’Aquila della chef Marzia Buzzanca. Originale anche nella linea di prodotti natalizi, apprezzatissimo il suo Panettone alla Liquirizia e allo Zafferano."
+                "text": "Un mestiere particolare per Giorgia, che è celiaca e che per questo non può assaggiare gran parte dei suoi prodotti, ma la passione che la muove è tanta. A farla distinguere c’è la sua grande inventiva. Anche nel marketing, ad esempio, d’estate in sella alla sua bicicletta consegna cornetti caldi ad atriani e turisti. Da sempre anticipatrice dei tempi. Giorgia è stata tra le prime in Italia a lavorare la pasta di zucchero quando ancora non era così diffusa. Una creatività travolgente che l’ha portata alla creazione, tra le altre cose, delle Spezialità. Si tratta di una personalissima linea di biscotti alle spezie in fase di distribuzione a livello nazionale."
             },
             {
                 "tag": "img",
                 "url": "./assets/images/giorgia.jpg"
+            }
+        ]
+    },
+    {
+        "id": "p2",
+        "name": "pagina 2",
+        "content": [
+            {
+                "tag": "h2",
+                "text": "Pasticcera simpaticona"
+            },
+            {
+                "tag": "p",
+                "text": "Un mestiere particolare per Giorgia, che è celiaca e che per questo non può assaggiare gran parte dei suoi prodotti, ma la passione che la muove è tanta. A farla distinguere c’è la sua grande inventiva. Anche nel marketing, ad esempio, d’estate in sella alla sua bicicletta consegna cornetti caldi ad atriani e turisti. Da sempre anticipatrice dei tempi. Giorgia è stata tra le prime in Italia a lavorare la pasta di zucchero quando ancora non era così diffusa. Una creatività travolgente che l’ha portata alla creazione, tra le altre cose, delle Spezialità. Si tratta di una personalissima linea di biscotti alle spezie in fase di distribuzione a livello nazionale."
+            },
+            {
+                "tag": "h2",
+                "text": "Viva i dolci!"
+            },
+            {
+                "tag": "p",
+                "text": "Un mestiere particolare per Giorgia, che è celiaca e che per questo non può assaggiare gran parte dei suoi prodotti, ma la passione che la muove è tanta. A farla distinguere c’è la sua grande inventiva. Anche nel marketing, ad esempio, d’estate in sella alla sua bicicletta consegna cornetti caldi ad atriani e turisti. Da sempre anticipatrice dei tempi. Giorgia è stata tra le prime in Italia a lavorare la pasta di zucchero quando ancora non era così diffusa. Una creatività travolgente che l’ha portata alla creazione, tra le altre cose, delle Spezialità. Si tratta di una personalissima linea di biscotti alle spezie in fase di distribuzione a livello nazionale."
+            }
+        ]
+    },
+    {
+        "id": "p3",
+        "name": "pagina 3",
+        "content": [
+            {
+                "tag": "h2",
+                "text": "Pasticcera burlona"
+            },
+            {
+                "tag": "p",
+                "text": "Un mestiere particolare per Giorgia, che è celiaca e che per questo non può assaggiare gran parte dei suoi prodotti, ma la passione che la muove è tanta. A farla distinguere c’è la sua grande inventiva. Anche nel marketing, ad esempio, d’estate in sella alla sua bicicletta consegna cornetti caldi ad atriani e turisti. Da sempre anticipatrice dei tempi. Giorgia è stata tra le prime in Italia a lavorare la pasta di zucchero quando ancora non era così diffusa. Una creatività travolgente che l’ha portata alla creazione, tra le altre cose, delle Spezialità. Si tratta di una personalissima linea di biscotti alle spezie in fase di distribuzione a livello nazionale."
+            },
+            {
+                "tag": "img",
+                "url": "./assets/images/giorgia.jpg"
+            }
+        ]
+    },
+    {
+        "id": "p4",
+        "name": "pagina 4",
+        "content": [
+            {
+                "tag": "div",
+                "children":[
+                    {
+                        "tag": "h2",
+                        "class": "page-title",
+                        "text": "Pasticcera burlona"
+                    },
+                    {
+                        "tag": "p",
+                        "text": "Un mestiere particolare per Giorgia, che è celiaca e che per questo non può assaggiare gran parte dei suoi prodotti, ma la passione che la muove è tanta. A farla distinguere c’è la sua grande inventiva. Anche nel marketing, ad esempio, d’estate in sella alla sua bicicletta consegna cornetti caldi ad atriani e turisti. Da sempre anticipatrice dei tempi. Giorgia è stata tra le prime in Italia a lavorare la pasta di zucchero quando ancora non era così diffusa. Una creatività travolgente che l’ha portata alla creazione, tra le altre cose, delle Spezialità. Si tratta di una personalissima linea di biscotti alle spezie in fase di distribuzione a livello nazionale."
+                    }
+                ]
+            },
+            {
+                "tag": "div",
+                "children":[
+                    {
+                        "tag": "h2",
+                        "style": "background-color: red",
+                        "text": "Gallery"
+                    },
+                    {
+                        "tag": "div",
+                        "children": [
+                            {
+                                "tag": "img",
+                                "url": "./assets/images/pavlova.jpg"
+                            },
+                            {
+                                "tag": "img",
+                                "url": "./assets/images/pavlova.jpg"
+                            },
+                            {
+                                "tag": "img",
+                                "url": "./assets/images/pavlova.jpg"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

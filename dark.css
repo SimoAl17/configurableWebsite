@@ -1,26 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Jura:wght@300&display=swap');
+
 body{
-    background-color: #373a6c;
+    margin-top: -22px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color:rgb(99, 33, 33);
 }
 
 header{
     height: 200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h1{
-    color: brown;
+#main-title{
+    border-style:dotted;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 70px;
+    font-family: 'Dancing Script', cursive;
+    color: aquamarine;
+    background-color: rgba(100, 72, 104, 0.363);
 }
 
-h2{
-    color: brown;
+#nav-menu{
+    display: flex;
 }
 
-
-p{
-    color: azure;
+header a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(72, 32, 148);
+    font-size: 20px;
+    font-weight: bold;
 }
 
 a{
     display: flex;
     flex-direction: column;
-    color: aqua;
+    text-decoration: none;
+    color:coral;
+}
+
+#page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #373a6c;
+    min-height: 750px;
+}
+
+#page-content h2{
+    font-family: 'Jura', sans-serif;
+    color: coral;
+}
+
+#page-content img{
+    margin-bottom: 30px;
+}
+
+p{
+    max-width: 1000px;
+    color: azure;
+}
+
+footer{
+    padding-top: 30px;
+    border-top: solid brown;
+    background-color:rgb(99, 33, 33);
+    display: flex;
+    justify-content: center;
 }
