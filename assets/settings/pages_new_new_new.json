@@ -1,0 +1,13 @@
+[
+    {
+        "id": "p1",
+        "name": "pagina 1",
+        "contentUrl": "./assets/pages/page1.md"
+    },
+    {
+        "id": "p2",
+        "name": "pagina 2",
+        "contentUrl": "./assets/pages/page2.md"
+    }
+]
+
